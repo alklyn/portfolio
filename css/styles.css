@@ -1,21 +1,35 @@
+img, svg {
+    max-width: 100%;
+}
+
 body{
     font-family: 'Roboto Slab', serif;
-    color: #747704;
+    color: #2d3c49;
     font-weight: 400;
 }
 
-.text-thin{
+.text-thin {
     font-weight: 100;
 }
 
-.text-muted{
+.text-muted {
     color: #bcbbbb;
 }
 
-.title-super{
+.title-super {
     font-size: 60px;
 }
 
-.title-logo{
+hr {
+    border: none;
+    height: 2px;
+    background-color: #2d3c49;
+}
+
+.title-logo {
     margin-top: 20px;
+}
+
+.logo {
+    max-width: 50px;
 }
