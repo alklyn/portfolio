@@ -22,8 +22,12 @@ body{
 
 hr {
     border: none;
-    height: 2px;
-    background-color: #2d3c49;
+    height: 3px;
+    background-color: #7d97ad;
+}
+
+h2 {
+    color: #7d97ad;
 }
 
 .title-logo {
