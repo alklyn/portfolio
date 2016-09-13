@@ -37,3 +37,7 @@ h2 {
 .logo {
     max-width: 50px;
 }
+
+svg {
+    fill: #02b3e4;
+}
