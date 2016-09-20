@@ -76,7 +76,14 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-                <img class="img-responsive" src="images/seesaw.jpg" alt="seesaw">
+                <picture>
+                    <figure>
+                      <source media="(min-width: 800px)" srcset="images/seesaw-1600_2x.jpg 2x, images/seesaw-800_1x.jpg 1x">
+                      <source media="(min-width: 500px)" srcset="images/seesaw-600_normal.jpg">
+                      <img class="img-responsive" src="images/seesaw-400_small.jpg" alt="My kids on a seesaw.">
+                      <figcaption>Fun on the seesaw</figcaption>
+                    </figure>
+                </picture>
             </div>
         </div>
         <div class="row">
@@ -86,21 +93,42 @@
         </div>
         <div class="row text-center">
             <div class="col-md-4">
-                <img class="img-responsive" src="images/isaac.jpg" alt="isaac" data-toggle="modal" data-target="#isaac">
+                <picture>
+                    <figure>
+                      <source media="(min-width: 800px)" srcset="images/isaac-1600_2x.jpg 2x, images/isaac-800_1x.jpg 1x">
+                      <source media="(min-width: 500px)" srcset="images/isaac-600_normal.jpg">
+                      <img class="img-responsive" src="images/isaac-400_small.jpg" alt="isaac chllin" data-toggle="modal" data-target="#isaac">
+                      <figcaption>Isaac chillin</figcaption>
+                    </figure>
+                </picture>
                 <h3  class="text-uppercase">Appify</h3>
                 <a href="https://github.com/udacity/Appify">
                     https://github.com/udacity/Appify
                 </a>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive" src="images/anna.jpg" alt="anna" data-toggle="modal" data-target="#anna">
+                <picture>
+                    <figure>
+                      <source media="(min-width: 800px)" srcset="images/anna-1600_2x.jpg 2x, images/anna-800_1x.jpg 1x">
+                      <source media="(min-width: 500px)" srcset="images/anna-600_normal.jpg">
+                      <img class="img-responsive" src="images/anna-400_small.jpg" alt="anna chillin" data-toggle="modal" data-target="#anna">
+                      <figcaption>Anna chillin</figcaption>
+                    </figure>
+                </picture>
                 <h3 class="text-uppercase">Sunflower</h3>
                 <a href="https://github.com/udacity/Sunflower">
                     https://github.com/udacity/Sunflower
                 </a>
             </div>
             <div class="col-md-4">
-                <img class="img-responsive" src="images/anna_and_isaac.jpg" alt="anna_and_isaac" data-toggle="modal" data-target="#anna_and_isaac">
+                <picture>
+                    <figure>
+                      <source media="(min-width: 800px)" srcset="images/anna_and_isaac-1600_2x.jpg 2x, images/anna_and_isaac-800_1x.jpg 1x">
+                      <source media="(min-width: 500px)" srcset="images/anna_and_isaac-600_normal.jpg">
+                      <img class="img-responsive" src="images/anna_and_isaac-400_small.jpg" alt="Anna and Isaac chillin" data-toggle="modal" data-target="#anna_and_isaac">
+                      <figcaption>Anna and Isaac chillin</figcaption>
+                    </figure>
+                </picture>
                 <h3 class="text-uppercase">Bokeh</h3>
                 <a href="https://github.com/udacity/Appify">
                     https://github.com/udacity/Bokeh
@@ -117,7 +145,7 @@
                     <h4 class="modal-title" id="isaacModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/isaac.jpg">
+                    <img class="img-responsive" src="images/isaac-600_normal.jpg" alt="Isaac chillin">
                     Isaac just chillin.
                 </div>
                 <div class="modal-footer">
@@ -134,7 +162,7 @@
                     <h4 class="modal-title" id="annaModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/anna.jpg">
+                    <img class="img-responsive" src="images/anna-600_normal.jpg" alt="Anna chillin">
                     Anna just chillin.
                 </div>
                 <div class="modal-footer">
@@ -152,7 +180,7 @@
                     <h4 class="modal-title" id="bothModalLabel">Favorite App Page</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/anna_and_isaac.jpg">
+                    <img class="img-responsive" src="images/anna_and_isaac-600_normal.jpg" alt="Anna and Isaac chillin">
                     Both just chillin.
                 </div>
                 <div class="modal-footer">
