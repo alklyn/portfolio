@@ -35,3 +35,7 @@ h2 {
     max-width: 50px;
     fill: #02b3e4;
 }
+
+.img-responsive {
+    width: 100%;
+}
