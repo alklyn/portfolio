@@ -31,14 +31,19 @@ module.exports = function(grunt) {
             quality: 50
         },
         {
-            width: 1600,
-            suffix: "_2x",
-            quality: 50
+            width: 2400,
+            suffix: "",
+            quality: 60
+        },
+        {
+            width: 1200,
+            suffix: "",
+            quality: 60
         },
         {
             width: 800,
-            suffix: "_1x",
-            quality: 50
+            suffix: "",
+            quality: 60
         }]
         },
 
