@@ -1,5 +1,5 @@
 # My portfolio
 
 # What is it?
-A small project demonstrating the use of a number of techinques to create a  
-responsive web page that will look good no matter what the the screen size is.
+My portfolio webpage showcasing a number modern webdevelopment techinques such
+as webfonts, responsive images, the bootsrap framework and vector graphics.
